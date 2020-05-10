@@ -1,0 +1,18 @@
+@relation corona
+
+@attribute Cough{ No, Yes }
+@attribute Fever{ No, Yes }
+@attribute Fatigue{ No, Yes }
+@attribute COVID-19{ POSITIVE, NEGATIVE }
+
+@data
+Yes Yes No POSITIVE
+No Yes Yes POSITIVE
+No No No POSITIVE
+No No Yes POSITIVE
+Yes No No NEGATIVE
+No Yes No NEGATIVE
+No No Yes NEGATIVE
+No Yes Yes NEGATIVE
+Yes Yes No NEGATIVE
+No Yes Yes NEGATIVE
